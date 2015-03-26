@@ -1,4 +1,4 @@
-PROJECT=the_project
+PROJECT=simple_parser
 
 GENERATED_EXECUTABLES=bin/demo
 
