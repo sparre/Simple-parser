@@ -1,8 +1,9 @@
 PROJECT=Simple_Parser
 
-GENERATED_EXECUTABLES=bin/simple_parser-demo
+GENERATED_EXECUTABLES=bin/$(LC_PROJECT)-demo
 
-GENERATED_SOURCES=src/simple_parser-mercurial.ads
+GENERATED_SOURCES=$(HG_STATE_SOURCE) \
+                  $(PROJECT_DEMO_SOURCE)
 
 SCRIPTS=
 
