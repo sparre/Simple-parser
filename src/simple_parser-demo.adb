@@ -1,8 +1,8 @@
 with Ada.Text_IO;
 
-with Mercurial;
+with Simple_Parser.Mercurial;
 
-procedure Demo is
+procedure Simple_Parser.Demo is
 begin
    Ada.Text_IO.Put_Line ("Revision: " & Mercurial.Revision);
-end Demo;
+end Simple_Parser.Demo;
